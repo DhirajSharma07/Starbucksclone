@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Poppins&display=swap');
+
+
+*{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Poppins", serif;
+
+ }
+.container{
+background-color: #0b3643;
+  color: white;
+ 
+}
+
+.second-nav{
+  background-color: #0f382c;
+  display: flex;
+  justify-content: end;
+}
+.container-second {
+  background-color:#edebe8;
+}
+.footer-container{
+  background-color: #0f382c;
+}
+.gift-container{
+  overflow: hidden;
+}
+.container-overflow, .seller-container, .container-list, .container-first {
+  scrollbar-width: none;
+}
+.container-first{
+  box-shadow: 0 2px 4px #00000012, 0 4px 5px #0000000f, 0 1px 10px #0000001a;
+}
+
+.bestseller{
+
+    background-color: rgb(30, 57, 50);
+
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+ 
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.active{
+  color:green ;
+  border-bottom: 2px solid green;
+  padding-bottom: 10px;
+}
